@@ -1,3 +1,7 @@
+"""
+    Main entry point for the chatbot application. 
+    This script initializes the chat session and handles user input in a loop until the user decides to exit.
+"""
 from app.chat import ChatSession
 
 
