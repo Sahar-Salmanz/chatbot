@@ -221,3 +221,18 @@ __marimo__/
 # customs
 .env
 __pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Database
+app.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db

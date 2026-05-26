@@ -16,3 +16,6 @@ class ChatSession:
         )
         self.memory.add_assistant_message(response)
         return response
+    
+    def clear(self):
+        self.memory.clear_history()

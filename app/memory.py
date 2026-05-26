@@ -25,10 +25,3 @@ class ConversationMemory:
         with open(file_name, 'w') as f:
             for message in self.history:
                 f.write(f'{message["role"]}: {message["content"]}\n')
-
-
-# Example usage:
-# memory = ConversationMemory()
-# memory.add_user_message("Hello, how are you?")
-# memory.add_assistant_message("I'm good, thank you! How can I assist you today?")
-# print(memory.get_history())
